@@ -1,0 +1,11 @@
+[package]
+name = "mesa-crash"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wl-client = "0.2.0"
+ash = { version = "0.38.0", features = ["linked"] }
+
+[build-dependencies]
+wl-client-builder = "0.2.0"
